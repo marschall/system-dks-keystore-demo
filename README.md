@@ -23,3 +23,12 @@ Putting this all togehter you JVM options should something like this:
 
 The code should work with any JVM.
 
+Indirections
+------------
+
+Both libraries rely on files that point to other files
+
+- `red-hat.sdks` -> `red-hat.dks#etc_pki_ca_trust_source_anchors`
+  - `etc-pki-ca-trust-source-anchors` -> `/etc/pki/ca-trust/source/anchors`
+  - `lib/security/cacerts`
+
