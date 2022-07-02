@@ -141,8 +141,6 @@
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
-          <autoVersionSubmodules>true</autoVersionSubmodules>
-          <mavenExecutorId>forked-path</mavenExecutorId>
           <arguments>-Pdeploy-to-sonatype-oss</arguments>
         </configuration>
       </plugin>
@@ -151,11 +149,11 @@
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.2.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>
+          <version>3.10.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
@@ -170,22 +168,12 @@
           <version>2.5.2</version>
         </plugin>
         <plugin>
-          <groupId>codes.rafael.modulemaker</groupId>
-          <artifactId>modulemaker-maven-plugin</artifactId>
-          <version>1.7</version>
-        </plugin>
-        <plugin>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.9.0</version>
+          <version>3.12.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.2</version>
-        </plugin>
-        <plugin>
-          <groupId>org.jboss.jandex</groupId>
-          <artifactId>jandex-maven-plugin</artifactId>
-          <version>1.1.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
@@ -193,15 +181,15 @@
         </plugin>
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>3.4.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.2.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-scm-plugin</artifactId>
-          <version>1.11.2</version>
+          <version>1.13.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-source-plugin</artifactId>
