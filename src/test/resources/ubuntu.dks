@@ -1,0 +1,11 @@
+
+domain system-plus-usr-local-share-ca-certificates {
+
+    keystore usr-local-share-ca-certificates
+        keystoreType="directory"
+        keystoreURI="${user.dir}/src/test/resources/usr-local-share-ca-certificates";
+
+    keystore system_truststore 
+        keystoreURI="${java.home}/lib/security/cacerts";
+
+};

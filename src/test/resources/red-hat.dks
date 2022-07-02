@@ -1,0 +1,11 @@
+
+domain system-plus-etc-pki-ca-trust-source-anchors {
+
+    keystore etc-pki-ca-trust-source-anchors
+        keystoreType="directory"
+        keystoreURI="${user.dir}/src/test/resources/etc-pki-ca-trust-source-anchors";
+
+    keystore system_truststore 
+        keystoreURI="${java.home}/lib/security/cacerts";
+
+};
