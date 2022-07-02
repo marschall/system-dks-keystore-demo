@@ -1,7 +1,7 @@
 
-domain system-plus-etc-pki-ca-trust-source-anchors {
+domain system_plus_etc_pki_ca_trust_source_anchors {
 
-    keystore etc-pki-ca-trust-source-anchors
+    keystore etc_pki_ca_trust_source_anchors
         keystoreType="directory"
         keystoreURI="${user.dir}/src/test/resources/etc-pki-ca-trust-source-anchors";
 

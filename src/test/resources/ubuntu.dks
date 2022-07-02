@@ -1,7 +1,6 @@
+domain system_plus_usr_local_share_ca_certificates {
 
-domain system-plus-usr-local-share-ca-certificates {
-
-    keystore usr-local-share-ca-certificates
+    keystore usr_local_share_ca_certificates
         keystoreType="directory"
         keystoreURI="${user.dir}/src/test/resources/usr-local-share-ca-certificates";
 
