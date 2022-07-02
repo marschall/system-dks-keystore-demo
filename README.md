@@ -1,5 +1,5 @@
 System DKS Keystore Demo
-=======================--
+========================
 
 Demo project for combining [marschall/system-dks-keystore](https://github.com/marschall/system-dks-keystore) with [marschall/directory-keystore](https://github.com/marschall/directory-keystore). The Directory Keystore library allows you to use the system certificates of a Linux distrubution (eg. `/etc/pki/ca-trust/source/anchors`) in combination with the certificates built in Java as a truststore for Java applications without any code changes. To make this work you only need six things:
 
